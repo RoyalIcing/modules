@@ -1,4 +1,5 @@
 const n = 42;
+const nb = 40 + 1;
 
 const a = `Answer is: ${n}`;
 const nPlus1 = n + 1;
@@ -12,4 +13,4 @@ const d = `hello ${m2}`;
 
 const e = `hello ${'message'}`;
 
-export { a, nPlus1, b, c, d, e };
+export { a, nb, nPlus1, b, c, d, e };
