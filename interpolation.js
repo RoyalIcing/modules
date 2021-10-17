@@ -7,7 +7,7 @@ const b = 'hello ' + 'world';
 const m1 = 'm1';
 const c = 'hello ' + m1;
 
-const m1 = 'm2';
+const m2 = 'm2';
 const d = `hello ${m2}`;
 
 const e = `hello ${'message'}`;
