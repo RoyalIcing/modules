@@ -4,6 +4,10 @@ function *OneTwoThree() {
   yield 3;
 }
 
-function *Trampoline() {
+function *TrampolineInternal() {
   yield* OneTwoThree;
+}
+
+export function *TrampolineExternal() {
+  yield* TrampolineInternal;
 }
